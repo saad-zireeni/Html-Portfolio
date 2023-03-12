@@ -193,6 +193,10 @@ section{
 .contact .info p{
     font-size: 1.3em;
 }
+.content .mail{
+    text-decoration: none;
+    color: black;
+}
 footer{
     background-color: black;
     color: white;
