@@ -37,7 +37,7 @@ header{
     padding-left: 30px;
 }
 .navigation a:hover{
-    color: #ff595e;
+    color: #ffca3a;
 }
 section{
     padding: 30px;
@@ -54,7 +54,7 @@ section{
     font-size: 1.4em;
     font-weight: 500;
 }
-.hero h2 span{
+.hero h2 .soft{
     display: inline-block;
     margin-top: 10px;
     color: #8ac926;
@@ -84,7 +84,7 @@ section{
 }
 .main-btn:hover{
     background-color: #ffca3a;
-    color: #ff595e;
+    color: white;
     transform: scale(1.1);
 }
 .social-icons a{
@@ -223,6 +223,10 @@ footer .social-icons a{
 .university-logo{
     width: fit-content;
 }
+.saad{
+    animation: animate 3s linear infinite;
+}
+
 
 @media (max-width:1023px){
     header{
@@ -248,6 +252,9 @@ footer .social-icons a{
         align-items: center;
     }
 }
+.hero h2 .saad{
+    animation: h2 0.35s infinite;
+}
 
 @media (max-width:641px){
     body{
@@ -264,4 +271,8 @@ footer .social-icons a{
     body{
         font-size: 10px;
     }
+}
+@keyframes h2 {
+    0%   {text-shadow: 0 0 6px #FFF;}
+    100%  {text-shadow: 0 0 0px #000;}
 }
