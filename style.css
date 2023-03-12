@@ -22,12 +22,15 @@ header{
     align-items: center;
     padding: 10px 100px;
 }
-.logo{
+header .logo{
     text-decoration: none;
     color: #8ac926;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 1.8em;
+}
+header .logo:hover{
+    animation: blink 1s infinite;
 }
 .navigation a{
     color: #8ac926;
@@ -86,6 +89,7 @@ section{
     background-color: #ffca3a;
     color: white;
     transform: scale(1.1);
+    text-decoration: none;
 }
 .social-icons a{
     color: white;
@@ -223,10 +227,6 @@ footer .social-icons a{
 .university-logo{
     width: fit-content;
 }
-.saad{
-    animation: animate 3s linear infinite;
-}
-
 
 @media (max-width:1023px){
     header{
@@ -253,7 +253,7 @@ footer .social-icons a{
     }
 }
 .hero h2 .saad{
-    animation: h2 0.35s infinite;
+    animation: blink 0.50s infinite;
 }
 
 @media (max-width:641px){
@@ -272,7 +272,9 @@ footer .social-icons a{
         font-size: 10px;
     }
 }
-@keyframes h2 {
+@keyframes blink {
     0%   {text-shadow: 0 0 6px #FFF;}
+    25%  {text-shadow: 0 0 0px #000;}
+    50%  {text-shadow: 0 0 6px #FFF;}
     100%  {text-shadow: 0 0 0px #000;}
 }
