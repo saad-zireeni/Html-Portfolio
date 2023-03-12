@@ -40,7 +40,6 @@ header{
     color: #ff595e;
 }
 section{
-    /* margin: 30px; */
     padding: 30px;
 }
 .hero{
@@ -49,11 +48,6 @@ section{
     min-height: 100vh;
     display: flex;
     align-items: center;
-    /* background-color: #ffca3a; */
-    /* background: url(/bg.jpg) no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed; */
 }
 .hero h2{
     color: white;
@@ -124,6 +118,10 @@ section{
     margin: 50px;
     transition: 0.7s ease;
 }
+.card-contact{
+    height: 150px;
+    width: 150px;
+}
 .card:hover{
     transform: scale(1.1);
 }
@@ -131,6 +129,10 @@ section{
     color: #8ac926;
     font-size: 8em;
     text-align: center;
+}
+.icon img{
+    width: 150px;
+    height: 150px;
 }
 .info{
     text-align: center;
@@ -188,10 +190,10 @@ section{
     background-color: rgba(1, 1, 1, 70%);
 }
 .contact .icon{
-    font-size: 4.5em;
+    font-size: 1em;
 }
 .contact .info p{
-    font-size: 1.3em;
+    font-size: 1em;
 }
 .content .mail{
     text-decoration: none;
@@ -214,6 +216,12 @@ footer{
 footer .social-icons a{
     font-size: 1.3em;
     padding: 0 12px 0 0;
+}
+.education{
+    list-style: none;
+}
+.university-logo{
+    width: fit-content;
 }
 
 @media (max-width:1023px){
