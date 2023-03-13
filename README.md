@@ -1,9 +1,21 @@
 # Portfolio
+This is a portfolio that showcases my skill, projects, and some personal info.
+
 ### Live Website Link:
-https://saad-zireeni.github.io/Portfolio/
+[Saad Zireeni's Portfolio](https://saad-zireeni.github.io/Portfolio/)
+
 
 ### Wireframe Link:
-https://www.figma.com/file/lY6WKBPBrhZo4omPpauuvQ/Portfolio-Wireframe?t=s69VL9goQDvE2cvb-0
+[Portfolio Wireframe](https://www.figma.com/file/lY6WKBPBrhZo4omPpauuvQ/Portfolio-Wireframe?t=s69VL9goQDvE2cvb-0)
+
 
 ### Mockup Link:
-https://www.figma.com/file/Tj0JlxBcV8fLQLsC3sS8SD/Portfolio-Mockup?t=s69VL9goQDvE2cvb-0
+[Portfolio Mockup](https://www.figma.com/file/Tj0JlxBcV8fLQLsC3sS8SD/Portfolio-Mockup?t=s69VL9goQDvE2cvb-0)
+
+
+#### tools I used 
+* Figma 
+* Github
+* Pexels
+* FontAwesome
+* MDN
