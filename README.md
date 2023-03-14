@@ -1,5 +1,5 @@
 # Portfolio
-This is a portfolio that showcases my skill, projects, and some personal info.
+This is a portfolio that showcases my skills, projects, and some personal info.
 
 ### Live Website Link:
 [Saad Zireeni's Portfolio](https://saad-zireeni.github.io/Portfolio/)
